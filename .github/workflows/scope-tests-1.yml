@@ -1,4 +1,4 @@
-name: Scope tests 1
+name: Scope tests
 
 on:
   push:
