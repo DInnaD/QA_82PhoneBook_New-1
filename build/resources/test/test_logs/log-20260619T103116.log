@@ -1,0 +1,31 @@
+10:31:17.601 [Test worker] INFO  utils.TestNGListener - Gradle test test start on Fri Jun 19 10:31:17 CEST 2026
+10:31:25.670 [Test worker] INFO  manager.AppManager - start testing with method --> loginPositiveTest
+10:31:27.564 [Test worker] INFO  utils.TestNGListener - start test --> loginPositiveTest
+10:31:27.618 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+10:31:28.170 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+10:31:28.249 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+10:31:28.461 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+10:31:28.504 [Test worker] INFO  utils.WDListener - Before click on element: a
+10:31:28.820 [Test worker] INFO  utils.WDListener - After click on element: a
+10:31:28.828 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='email']
+10:31:29.013 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='email']
+10:31:29.424 [Test worker] INFO  utils.WDListener - Use send keys to element input type [indan@gmail.com]
+10:31:29.425 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='password']
+10:31:29.582 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='password']
+10:31:29.875 [Test worker] INFO  utils.WDListener - Use send keys to element input type [!Password12]
+10:31:29.876 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+10:31:30.067 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+10:31:30.086 [Test worker] INFO  utils.WDListener - Before click on element: button
+10:31:30.737 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[@href='/add']
+10:31:30.907 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+10:31:30.919 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[@href='/add']
+10:31:31.018 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+10:31:31.314 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[@href='/add']
+10:31:31.501 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[@href='/add']
+10:31:32.274 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Sign Out']
+10:31:32.520 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Sign Out']
+10:31:32.602 [Test worker] INFO  utils.TestNGListener - test success --> loginPositiveTest
+10:31:32.607 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (ebd1bdeefb871f10e5561b85b2810668)
+10:31:39.236 [Test worker] INFO  utils.WDListener - Browser quit
+10:31:39.238 [Test worker] INFO  manager.AppManager - stop testing with method --> loginPositiveTest
+10:31:39.265 [Test worker] INFO  utils.TestNGListener - Gradle test test stop on Fri Jun 19 10:31:39 CEST 2026

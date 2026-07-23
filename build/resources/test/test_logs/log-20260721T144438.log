@@ -1,0 +1,113 @@
+14:44:38.608 [Test worker] INFO  utils.TestNGListener - Nopackage test start on Tue Jul 21 14:44:38 CEST 2026
+14:44:46.613 [Test worker] INFO  manager.AppManager - start testing with method --> loginNegative_AllFieldsEmpty_Test
+14:44:47.341 [Test worker] INFO  utils.TestNGListener - start test --> loginNegative_AllFieldsEmpty_Test
+14:44:47.353 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+14:44:48.177 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+14:44:48.226 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+14:44:48.315 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+14:44:48.328 [Test worker] INFO  utils.WDListener - Before click on element: a
+14:44:48.472 [Test worker] INFO  utils.WDListener - After click on element: a
+14:44:48.475 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+14:44:48.510 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+14:44:48.522 [Test worker] INFO  utils.WDListener - Before click on element: button
+14:44:48.677 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:44:49.201 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:44:49.752 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:44:50.489 [Test worker] INFO  utils.TestNGListener - test success --> loginNegative_AllFieldsEmpty_Test
+14:44:50.491 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (2481321880bc8344a11b6c059b5df13c)
+14:44:52.628 [Test worker] INFO  utils.WDListener - Browser quit
+14:44:52.629 [Test worker] INFO  manager.AppManager - stop testing with method --> loginNegative_AllFieldsEmpty_Test
+14:44:54.246 [Test worker] INFO  manager.AppManager - start testing with method --> loginNegative_EmptyFieldEmail_Test
+14:44:54.313 [Test worker] INFO  utils.TestNGListener - start test --> loginNegative_EmptyFieldEmail_Test
+14:44:54.321 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+14:44:54.876 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+14:44:54.877 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+14:44:54.956 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+14:44:54.996 [Test worker] INFO  utils.WDListener - Before click on element: a
+14:44:55.219 [Test worker] INFO  utils.WDListener - After click on element: a
+14:44:55.222 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='email']
+14:44:55.326 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='email']
+14:44:55.551 [Test worker] INFO  utils.WDListener - Use send keys to element input type []
+14:44:55.554 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='password']
+14:44:55.601 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='password']
+14:44:55.789 [Test worker] INFO  utils.WDListener - Use send keys to element input type [!Password12]
+14:44:55.790 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+14:44:55.819 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+14:44:55.837 [Test worker] INFO  utils.WDListener - Before click on element: button
+14:44:56.018 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:44:56.559 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:44:57.127 [Test worker] INFO  utils.TestNGListener - test success --> loginNegative_EmptyFieldEmail_Test
+14:44:57.130 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (2479e2aa96946c82a91eb50c1a49e18f)
+14:44:57.571 [Test worker] INFO  utils.WDListener - Browser quit
+14:44:57.571 [Test worker] INFO  manager.AppManager - stop testing with method --> loginNegative_EmptyFieldEmail_Test
+14:44:59.353 [Test worker] INFO  manager.AppManager - start testing with method --> loginNegative_EmptyFieldPassword_Test
+14:44:59.409 [Test worker] INFO  utils.TestNGListener - start test --> loginNegative_EmptyFieldPassword_Test
+14:44:59.412 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+14:45:00.172 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+14:45:00.174 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:00.256 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:00.277 [Test worker] INFO  utils.WDListener - Before click on element: a
+14:45:00.503 [Test worker] INFO  utils.WDListener - After click on element: a
+14:45:00.503 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='email']
+14:45:00.563 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='email']
+14:45:00.742 [Test worker] INFO  utils.WDListener - Use send keys to element input type [indan@gmail.com]
+14:45:00.743 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='password']
+14:45:00.786 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='password']
+14:45:00.905 [Test worker] INFO  utils.WDListener - Use send keys to element input type []
+14:45:00.905 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+14:45:00.934 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+14:45:00.945 [Test worker] INFO  utils.WDListener - Before click on element: button
+14:45:01.131 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:01.655 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:02.174 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:02.730 [Test worker] INFO  utils.TestNGListener - test success --> loginNegative_EmptyFieldPassword_Test
+14:45:02.735 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (c76477895e731f0e02ba800b729f2105)
+14:45:03.095 [Test worker] INFO  utils.WDListener - Browser quit
+14:45:03.095 [Test worker] INFO  manager.AppManager - stop testing with method --> loginNegative_EmptyFieldPassword_Test
+14:45:04.762 [Test worker] INFO  manager.AppManager - start testing with method --> loginNegative_WrongEmail_Test
+14:45:04.786 [Test worker] INFO  utils.TestNGListener - start test --> loginNegative_WrongEmail_Test
+14:45:04.789 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+14:45:05.565 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+14:45:05.567 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:05.613 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:05.631 [Test worker] INFO  utils.WDListener - Before click on element: a
+14:45:05.843 [Test worker] INFO  utils.WDListener - After click on element: a
+14:45:05.845 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='email']
+14:45:05.930 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='email']
+14:45:06.186 [Test worker] INFO  utils.WDListener - Use send keys to element input type [asdert123@rty.com]
+14:45:06.187 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='password']
+14:45:06.225 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='password']
+14:45:06.409 [Test worker] INFO  utils.WDListener - Use send keys to element input type [!Password12]
+14:45:06.410 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+14:45:06.452 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+14:45:06.464 [Test worker] INFO  utils.WDListener - Before click on element: button
+14:45:06.691 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:07.203 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:07.719 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:08.264 [Test worker] INFO  utils.TestNGListener - test success --> loginNegative_WrongEmail_Test
+14:45:08.272 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (af9fdb257c9d6e398a4aa5ad6cf4bc89)
+14:45:08.617 [Test worker] INFO  utils.WDListener - Browser quit
+14:45:08.617 [Test worker] INFO  manager.AppManager - stop testing with method --> loginNegative_WrongEmail_Test
+14:45:11.525 [Test worker] INFO  manager.AppManager - start testing with method --> loginNegative_WrongPassword_Test
+14:45:11.551 [Test worker] INFO  utils.TestNGListener - start test --> loginNegative_WrongPassword_Test
+14:45:11.574 [Test worker] INFO  utils.WDListener - Before get https://telranedu.web.app/home
+14:45:11.886 [Test worker] INFO  utils.WDListener - After get https://telranedu.web.app/home
+14:45:11.888 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:12.761 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //a[text()='LOGIN']
+14:45:12.787 [Test worker] INFO  utils.WDListener - Before click on element: a
+14:45:13.074 [Test worker] INFO  utils.WDListener - After click on element: a
+14:45:13.075 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='email']
+14:45:13.127 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='email']
+14:45:13.337 [Test worker] INFO  utils.WDListener - Use send keys to element input type [indan@gmail.com]
+14:45:13.339 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //input[@name='password']
+14:45:13.395 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //input[@name='password']
+14:45:13.592 [Test worker] INFO  utils.WDListener - Use send keys to element input type [A123vbgt!]
+14:45:13.592 [Test worker] INFO  utils.WDListener - Before Find element with locator --> By.xpath: //button[text()='Login']
+14:45:13.649 [Test worker] INFO  utils.WDListener - After find element with locator --> By.xpath: //button[text()='Login']
+14:45:13.664 [Test worker] INFO  utils.WDListener - Before click on element: button
+14:45:13.847 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:14.366 [Test worker] ERROR utils.WDListener - created exception java.lang.reflect.InvocationTargetException
+14:45:15.185 [Test worker] INFO  utils.TestNGListener - test success --> loginNegative_WrongPassword_Test
+14:45:15.190 [Test worker] INFO  utils.WDListener - Before quit driver is --> ChromeDriver: chrome on windows (7bec5d22546953b963f28550edaccb1f)
+14:45:15.684 [Test worker] INFO  utils.WDListener - Browser quit
+14:45:15.685 [Test worker] INFO  manager.AppManager - stop testing with method --> loginNegative_WrongPassword_Test
