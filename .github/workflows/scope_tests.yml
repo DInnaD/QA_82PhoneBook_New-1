@@ -19,10 +19,14 @@ jobs:
         with:
           java-version: '21'
           distribution: 'temurin'
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Install chrome
-        uses: browser-actions/setup-chrome@latest
+        uses: browser-actions/setup-chrome@v2
       - name: Setup Gradle
-        uses: gradle/actions/setup-gradle@v4
+        uses: gradle/actions/setup-gradle@v6
       - name: Build with Gradle Wrapper
         run: .\gradlew.bat clean scope
       - name: Upload Test Reports
